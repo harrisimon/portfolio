@@ -1,13 +1,57 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+		"Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+		"Helvetica Neue", sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	background-color: #f4d6ba;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+		monospace;
+}
+.container {
+	position: relative;
+	width: 23rem;
+	border-radius: 180px;
+
+}
+.harrisonPortrait {
+	border-radius: 180px;
+	height: 23rem;
+}
+/* .harrisonPortrait:hover{
+  border-color: black;
+  border: black 50px solid;
+} */
+.overlay {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	transition: 0.5s ease;
+	background-color: #2c2c54;
+	border-radius: 180px;
+}
+.container:hover .overlay {
+	opacity: 0.75;
+}
+.text {
+	position: absolute;
+
+	margin-left: auto;
+	margin-right: auto;
+  margin-top: auto;
+  top: 8rem;
+	left: 0;
+	right: 0;
+	text-align: center;
+	font-size: 5rem;
+	color: white;
 }
