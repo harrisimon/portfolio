@@ -2,7 +2,7 @@ import React from "react"
 import sewerRat from "../imgs/sewerRat.jpg"
 import movieLogger from "../imgs/movielogger.jpg"
 
-const Portfolio = () => {
+const Projects = () => {
 	return (
 		<>
 			<h3>Projects</h3>
@@ -37,4 +37,4 @@ const Portfolio = () => {
 	)
 }
 
-export default Portfolio
+export default Projects
