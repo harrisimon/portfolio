@@ -1,33 +1,47 @@
-import logo from "./logo.svg"
 import "./App.css"
 import Home from "./components/Home"
-import MyTools from "./components/MyTools"
 import Projects from "./components/Projects"
-import Contact from "./components/Contact"
-import harrisonProfile from "./imgs/harrisonProfile.jpg"
-import { Grid, Container, Segment, Menu } from "semantic-ui-react"
 import { Route, Routes, BrowserRouter } from "react-router-dom"
 import AboutMe from "./components/AboutMe"
-import Header from "./components/Header"
 import NewHeader from "./components/NewHeader"
+import milkyWay from "./imgs/milkywayatcapecod.jpg"
+import { useState } from "react"
 
 function App() {
+	const [active, setActive] = useState(false)
+
+	const handleClick = () => {
+		setActive((current) => !current)
+	}
+
 	return (
-		<>
+		<div
+			className="background"
+			style={{
+				backgroundImage: active ? `url(${milkyWay})` : "",
+				transition: "all .5s ease",
+				color: active ? "white" : "black",
+				transition: "all .5s ease",
+			}}
+		>
 			<BrowserRouter>
 				<NewHeader />
 				<Routes>
-					<Route path="/" element={<Home />} />
+					<Route
+						path="/"
+						element={
+							<Home active={active} handleClick={handleClick} />
+						}
+					/>
 					<Route path="/about-me" element={<AboutMe />} />
 					<Route path="/projects" element={<Projects />} />
 				</Routes>
 			</BrowserRouter>
 
-
 			{/* <Segment className="about-me"></Segment> */}
 
 			{/* <Contact /> */}
-		</>
+		</div>
 	)
 }
 

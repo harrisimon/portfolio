@@ -1,9 +1,17 @@
-import React from "react"
+import React, { useState, useEffect } from "react"
 import harrisonProfile from "../imgs/harrisonProfile.jpg"
-import { Button } from "semantic-ui-react"
+import { Icon } from 'semantic-ui-react'
+import { useNavigate } from "react-router-dom"
 // import { Button } from 'semantic-ui-css'
 
-const Home = () => {
+const Home = (props) => {
+	const { handleClick, active } = props
+	const navigate = useNavigate()
+	const routeChange = () => {
+		let path = `/about-me`
+		navigate(path)
+	}
+
 	return (
 		<div className="home">
 			<div className="content">
@@ -21,8 +29,13 @@ const Home = () => {
 
 					<div className="intro-text">
 						<p id="font" className="about-harrison">
-							<span className="intro">Hi, I'm Harrison! 🌌</span>
-							<br /> I’m an innovative, thoughtful developer who
+							<span className="intro">
+								Hi, I'm Harrison!{" "}
+								<span className="milky" onClick={handleClick}>
+									🌌
+								</span>
+							</span>
+							<br /> I`m an innovative, thoughtful developer who
 							ensures there is a human touch in all the code I
 							write. My background as an educator, technologist,
 							and artist inform how I solve problems with a
@@ -32,11 +45,12 @@ const Home = () => {
 					</div>
 				</div>
 			</div>
-
+			<div className="milkyway"></div>
 			<div className="about-background">
 				<div className="tools">
 					<div className="frontEnd">
-						<h2>Front-End Development</h2>
+						<Icon size="large" name="code"/>
+						<h2>Front-End Development </h2>
 						<ul>
 							<li>Javascript</li>
 							<li>HTML</li>
@@ -58,7 +72,7 @@ const Home = () => {
 				</div>
 				<div className="homepage-footer">
 					<div>
-						<button className="mybtns">
+						<button onClick={routeChange} className="mybtns">
 							More About
 							<br /> Harrison
 						</button>

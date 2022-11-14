@@ -5,34 +5,38 @@ import movieLogger from "../imgs/movielogger.jpg"
 const Projects = () => {
 	return (
 		<>
-			<h3>Projects</h3>
-			<div id="sewer-rat">
-				<h1>Sewer Rat</h1>
-				<p>
-					<a href="https://harrisimon.github.io/Sewer-Rat/">
-						Link to Deployed Version
-					</a>
+				<h2 className="project-title">Recent Projects</h2>
+			<div className="projects">
+
+				<div className="project" id="sewer-rat">
+					<h1>Sewer Rat</h1>
+					<p>
+						<a href="https://harrisimon.github.io/Sewer-Rat/">
+							Link to Deployed Version
+						</a>
+					</p>
+						<img
+							src={sewerRat}
+							id="image"
+							alt="sewer rat game screen cap"
+						/>
+				</div>
+				<div className="project" id="movie-logger">
+					<h1>Movie Logger</h1>
 					<img
-						src={sewerRat}
+						src={movieLogger}
 						id="image"
-						alt="sewer rat game screen cap"
+						alt="movie logger screen cap"
 					/>
-				</p>
+				</div>
+				<div className="project" id="quizard">
+					<h1>Quizard</h1>
+				</div>
+				<div>
+					<h1>Burger Stacker</h1>
+				</div>
 			</div>
-			<div id="movie-logger">
-				<h1>Movie Logger</h1>
-				<img
-					src={movieLogger}
-					id="image"
-					alt="movie logger screen cap"
-				/>
-			</div>
-			<div id="quizard">
-				<h1>Quizard</h1>
-			</div>
-			<div>
-				<h1>Burger Stacker</h1>
-			</div>
+			<div className="about-background"></div>
 		</>
 	)
 }
