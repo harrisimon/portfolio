@@ -165,12 +165,11 @@ code {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	/* margin: 20px; */
 	justify-content: center;
 }
 .project-title {
 	color: white;
-	margin-top: 15px;
+
 	font-family: "space mono";
 }
 .row {
@@ -353,4 +352,10 @@ h3 {
 small{
 	padding: 15px;
 	font-weight: lighter;
+}
+.footer {
+	/* position: fixed;
+	bottom: 0; */
+	background-color: #a40e4c;
+	height: 300px;
 }

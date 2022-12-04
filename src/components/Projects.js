@@ -7,7 +7,7 @@ import { Card } from "semantic-ui-react"
 const Projects = () => {
 	return (
 		<div className="project-background" id="projects">
-			<h1 className="project-title">Recent Projects</h1>
+			<h1 className="project-title"><br/>Recent Projects</h1>
 
 			<div className="projects">
 				<div className="row">

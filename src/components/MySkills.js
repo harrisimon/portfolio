@@ -8,7 +8,7 @@ const MyTools = () => {
 
     return(
         <>
-           <div className="tools">
+           <div className="tools"><br/>
 			<h1 id="skills"><Icon size="small" name="computer" /> My Skills <Icon size="small" name="code" /></h1>
 					<div className="frontEnd">
 						
@@ -33,6 +33,7 @@ const MyTools = () => {
 						</ul>
 					</div>
 				</div>
+				<br />
         </>
     )
 }

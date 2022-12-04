@@ -5,7 +5,7 @@ const Footer = () => {
 
     return(
         <>
-        <div>
+        <div className='footer'>
 
         <button className='mybtns'>my resume</button>
         </div>
