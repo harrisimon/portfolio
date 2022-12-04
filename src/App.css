@@ -2,11 +2,14 @@
   text-align: center;
   background-color: #f4d6ba;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#root{
+  /* height: 100%; */
+  /* height: 100vh; */
+  /* background-image: url('./imgs/coldstorage.jpg'); */
+  background-position: center;
+  background-size: cover;
 }
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {

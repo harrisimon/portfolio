@@ -1,11 +1,14 @@
-import "./App.css"
 import Home from "./components/Home"
 import Projects from "./components/Projects"
 import { Route, Routes, BrowserRouter } from "react-router-dom"
 import AboutMe from "./components/AboutMe"
 import NewHeader from "./components/NewHeader"
-import milkyWay from "./imgs/milkywayatcapecod.jpg"
-import { useState } from "react"
+import milkyWay from "./imgs/coldstorage.jpg"
+import { Fragment, useState, useEffect } from "react"
+import harrisonProfile from "./imgs/harrisonProfile.jpg"
+import MySkills from "./components/MySkills"
+import "./App.css"
+import Footer from "./components/Footer"
 
 function App() {
 	const [active, setActive] = useState(false)
@@ -13,35 +16,48 @@ function App() {
 	const handleClick = () => {
 		setActive((current) => !current)
 	}
+	// const [width, setWidth] = useState(Number(window.innerWidth))
+
+	// function handleWindowSizeChange() {
+	// 	setWidth(window.innerWidth)
+	// }
+	// useEffect(() => {
+	// 	window.addEventListener("resize", handleWindowSizeChange)
+	// 	return () => {
+	// 		window.removeEventListener("resize", handleWindowSizeChange)
+	// 	}
+	// }, [])
+
+	// const isMobile = width <= 768
 
 	return (
-		<div
-			className="background"
-			style={{
-				backgroundImage: active ? `url(${milkyWay})` : "",
-				transition: "all .5s ease",
-				color: active ? "white" : "black",
-				transition: "all .5s ease",
-			}}
-		>
-			<BrowserRouter>
-				<NewHeader />
-				<Routes>
-					<Route
-						path="/"
-						element={
-							<Home active={active} handleClick={handleClick} />
-						}
-					/>
-					<Route path="/about-me" element={<AboutMe />} />
-					<Route path="/projects" element={<Projects />} />
-				</Routes>
-			</BrowserRouter>
+		<>
+			<Fragment>
+				<BrowserRouter>
+					<NewHeader />
+					<div
+						className="home"
+						style={{
+							backgroundImage: active ? `url(${milkyWay})` : "",
+							color: active ? "white" : "",
+							textShadow: active ? "1px 1px 2px black" : "",
+							transition: "ease .5s",
+						}}
+					>
+						<AboutMe
+							harrisonProfile={harrisonProfile}
+							handleClick={handleClick}
+						/>
+						<Projects />
+						<MySkills />
+						<Footer />
+					</div>
+					
+				</BrowserRouter>
+			</Fragment>
+		</>
 
-			{/* <Segment className="about-me"></Segment> */}
-
-			{/* <Contact /> */}
-		</div>
+		// </div>
 	)
 }
 
