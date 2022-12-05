@@ -75,6 +75,15 @@ html, body, #app {
 		height: 100vh;
 		/* background-color: blue; */
 	}
+	.skills{
+		display: flex;
+		flex-direction: row;
+
+	}
+	ul {
+		display: flex;
+		flex-direction: column;
+	}
 }
 
 #root {
@@ -207,9 +216,13 @@ code {
 	justify-content: space-around;
 	margin: 15px;
 }
+a{
+	color: white;
+}
 .mybtns {
 	display: inline-block;
 	flex-direction: row;
+	text-decoration: none;
 	background-color: #2c2c54;
 	color: white;
 	font-family: "Space Mono", monospace;
@@ -218,6 +231,7 @@ code {
 	border-radius: 18px;
 	border: 0px;
 	transition: 0.25s;
+	padding: .5rem;
 	text-align: center;
 }
 .mybtns:hover {
@@ -358,4 +372,34 @@ small{
 	bottom: 0; */
 	background-color: #a40e4c;
 	height: 300px;
+}
+ul {
+	display: flex;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.skills {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-items: center;
+}
+
+li {
+	
+	flex-direction: row;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+	margin: 0 1rem 1rem 1rem;
+	/* float: left; */
+}
+.row1 {
+	display: flex;
+	flex-direction: row;
+}
+.row2 {
+	display: flex;
+	flex-direction: row;
 }

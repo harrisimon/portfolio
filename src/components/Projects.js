@@ -2,12 +2,15 @@ import React from "react"
 import sewerRat from "../imgs/sewerRat.jpg"
 import movieLogger from "../imgs/movielogger.jpg"
 import { HashLink as Link } from "react-router-hash-link"
-import { Card } from "semantic-ui-react"
+import { Card, Container } from "semantic-ui-react"
 
 const Projects = () => {
 	return (
+		
 		<div className="project-background" id="projects">
 			<h1 className="project-title"><br/>Recent Projects</h1>
+			<Container>
+
 
 			<div className="projects">
 				<div className="row">
@@ -38,10 +41,10 @@ const Projects = () => {
 							id="image"
 							alt="sewer rat game screen cap"
 						/>
-						<p className="app-description">
+						<small className="app-description">
 							An HTML5 canvas based (vanilla JS, HTML CSS) browser
 							game.
-						</p>
+						</small>
 						<button className="mybtns">
 							<a href="https://harrisimon.github.io/Sewer-Rat/">
 								Link to Deployed Version
@@ -67,6 +70,7 @@ const Projects = () => {
 					</div>
 				</div>
 			</div>
+			</Container>
 		</div>
 	)
 }

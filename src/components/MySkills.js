@@ -1,41 +1,102 @@
-import React from "react";
-import { Icon } from "semantic-ui-react"
-
-
+import React from "react"
+import { Icon, IconGroup, Container } from "semantic-ui-react"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 
 const MyTools = () => {
-
-
-    return(
-        <>
-           <div className="tools"><br/>
-			<h1 id="skills"><Icon size="small" name="computer" /> My Skills <Icon size="small" name="code" /></h1>
-					<div className="frontEnd">
-						
-						<h2>Front-End Development </h2>
+	return (
+		<Container>
+			<div className="tools">
+				<br />
+				<h1 id="skills">
+					<Icon size="small" name="computer" /> Technologies <span></span>
+					<Icon size="small" name="code" />
+				</h1>
+				<div className="skills">
+					<div className="row1">
 						<ul>
-							<li>Javascript</li>
-							<li>HTML</li>
-							<li>CSS</li>
-							<li>React.js</li>
-							<li>Node.js</li>
-							<li>Bootstrap UI</li>
-							<li>Semantic UI</li>
+							<li>
+								<Icon size="huge" name="js square"></Icon>
+								<br />
+								Javascript
+							</li>
+							<li>
+								<Icon size="huge" name="html5"></Icon>
+								<br />
+								HTML
+							</li>
+							<li>
+								<Icon size="huge" name="css3 alternate"></Icon>
+								<br />
+								CSS
+							</li>
+							<li>
+								<Icon size="huge" name="react"></Icon>
+								<br />
+								React.js
+							</li>
+							<li>
+								<Icon size="huge" name="node"></Icon>
+								<br />
+								Node.js
+							</li>
+							<li>
+								<Icon size="huge" name="python"></Icon>
+								<br />
+								Python
+							</li>
 						</ul>
 					</div>
-					<div className="backEnd">
-						<h2>Back-End Development</h2>
+					<br />
+					<div className="row2">
 						<ul>
-							<li>Python</li>
-							<li>Django</li>
-							<li>MongoDB/Mongoose</li>
-							<li>Express</li>
+							<li>
+								<Icon
+									className="devicon-django-plain"
+									size="huge"
+								/>
+								<br />
+								Django
+							</li>
+							<li>
+								<Icon
+									className="devicon-bootstrap-plain"
+									size="huge"
+								/>
+								<br />
+								Bootstrap UI
+							</li>
+
+							<li>
+								<Icon
+									className="devicon-mongodb-plain-wordmark"
+									size="huge"
+								/>
+								<br />
+								MongoDB
+							</li>
+							<li>
+								<Icon
+									className="devicon-express-original"
+									size="huge"
+								></Icon>
+								<br />
+								Express
+							</li>
+							<li>
+								<Icon
+									className="devicon-postgresql-plain"
+									size="huge"
+								></Icon>
+								<br />
+								PostgreSQL
+							</li>
 						</ul>
 					</div>
 				</div>
-				<br />
-        </>
-    )
+			</div>
+			<br />
+		</Container>
+	)
 }
 
 export default MyTools
