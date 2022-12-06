@@ -31,7 +31,7 @@ const Projects = () => {
 						</small>
 						<button className="mybtns">
 							<a href="https://movielogger.fly.dev/">
-								Link to Deployed Version
+								Link to <br/>Deployed Version
 							</a>
 						</button>
 					</div>
@@ -49,7 +49,7 @@ const Projects = () => {
 						</small>
 						<button className="mybtns">
 							<a href="https://harrisimon.github.io/Sewer-Rat/">
-								Link to Deployed Version
+								Link to <br/>Deployed Version
 							</a>
 						</button>
 					</div>
@@ -67,7 +67,7 @@ const Projects = () => {
 						</small>
 						<button className="mybtns">
 							<a href="https://quizard-by-tuneheads.netlify.app/">
-								Link to Deployed Version
+								Link to <br/>Deployed Version
 							</a>
 						</button>
 					</div>
@@ -77,6 +77,9 @@ const Projects = () => {
 						src={bampow}
 						id="image"
 						/>
+						<small className="app-description">
+							More coming soon...
+						</small>
 					</div>
 				</div>
 			</div>

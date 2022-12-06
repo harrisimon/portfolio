@@ -15,7 +15,8 @@ const NewHeader = () => {
 						<p className="center">Harrison Simon</p>
 					</Link>
 					<div className="nav-items">
-				
+						{/* <div className="top-items"> */}
+
 						<Link
 							smooth
 							to="/pathLink#projects"
@@ -28,6 +29,14 @@ const NewHeader = () => {
 						<Link smooth to="/pathLink#skills" className="nav-link">
 							Skills
 						</Link>
+						<a href={`${process.env.PUBLIC_URL}/harrisonResume.pdf`}
+						className='nav-link'>
+							Resume
+						</a>
+						{/* </div> */}
+					</div>
+						<div className="bottom-items">
+
 						<a
 							className="nav-link"
 							href="https://www.linkedin.com/in/harrison-simon-"
@@ -43,7 +52,7 @@ const NewHeader = () => {
 								src={GithubLight}
 							/>
 						</a>
-					</div>
+						</div>
 				</header>
 			</div>
 		

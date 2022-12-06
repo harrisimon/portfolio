@@ -9,6 +9,7 @@ import harrisonProfile from "./imgs/harrisonProfile.jpg"
 import MySkills from "./components/MySkills"
 import "./App.css"
 import Footer from "./components/Footer"
+import Resume from './components/Resume'
 
 function App() {
 	const [active, setActive] = useState(false)
@@ -57,6 +58,7 @@ function App() {
 					</div>
 					
 				</BrowserRouter>
+
 			</Fragment>
 		</>
 
