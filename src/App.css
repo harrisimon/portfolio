@@ -8,7 +8,7 @@
   /* background-image: url('./imgs/coldstorage.jpg'); */
   width: 102%;
   height: 102%;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
   background-position: center;
   background-size: cover;
 }
