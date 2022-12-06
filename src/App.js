@@ -41,10 +41,10 @@ function App() {
 							backgroundImage: active ? `url(${milkyWay})` : "",
 							color: active ? "white" : "",
 							textShadow: active ? "1px 1px 2px black" : "",
-							transition: "ease .5s",
 							backgroundRepeat: "no-repeat",
 							backgroundSize: "cover",
-							backgroundPosition: "center"
+							backgroundPosition: "center",
+							transition: "ease .95s",
 						}}
 					>
 						<AboutMe

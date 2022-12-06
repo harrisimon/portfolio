@@ -1,6 +1,8 @@
 import React from "react"
 import sewerRat from "../imgs/sewerRat.jpg"
 import movieLogger from "../imgs/movielogger.jpg"
+import quizard from "../imgs/quizard.jpg"
+import bampow from "../imgs/bampow.jpg"
 import { HashLink as Link } from "react-router-hash-link"
 import { Card, Container } from "semantic-ui-react"
 
@@ -56,17 +58,25 @@ const Projects = () => {
 				<div className="row">
 					<div className="project" id="quizard">
 						<h2 className="project-title">Quizard</h2>
-						<p className="app-description">
-							A full-stack application where users can login to play game either 
-						</p>
+						<img
+						src={quizard}
+						id="image"
+						/>
+						<small className="app-description">
+							A full-stack application where users can login to play trivia quizzes either from user submissions or by an API.
+						</small>
 						<button className="mybtns">
-							<a href="https://harrisimon.github.io/Sewer-Rat/">
+							<a href="https://quizard-by-tuneheads.netlify.app/">
 								Link to Deployed Version
 							</a>
 						</button>
 					</div>
 					<div className="project" id="bampow">
 						<h2 className="project-title">Bam Pow</h2>
+						<img
+						src={bampow}
+						id="image"
+						/>
 					</div>
 				</div>
 			</div>

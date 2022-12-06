@@ -8,7 +8,7 @@ const MyTools = () => {
 			<div className="tools">
 				<br />
 				<h1 id="skills">
-					<Icon size="small" name="computer" /> Technologies <span></span>
+					<Icon size="small" name="computer" /> Skills <span></span>
 					<Icon size="small" name="code" />
 				</h1>
 				<div className="skills">
