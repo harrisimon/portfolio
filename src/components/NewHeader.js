@@ -12,7 +12,7 @@ const NewHeader = () => {
 				<header className="top">
 					
 					<Link to="/" className="header-name">
-						<p className="center">Harrison Simon</p>
+						<h1 className="center">Harrison Simon</h1>
 					</Link>
 					<div className="nav-items">
 						{/* <div className="top-items"> */}
