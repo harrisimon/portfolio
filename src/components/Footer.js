@@ -9,7 +9,7 @@ const Footer = () => {
 		<>
 			<div className="footer">
 				<div className="contact">
-                        <ButtonMailto className='mybtns'label="Contact me"subject="Let's connect!" mailto="mailto:hello@harrison-simon.com" />
+                        <ButtonMailto className='mybtns'label="Contact me"subject="Let's connect!" mailto="mailto:contact@harrison-simon.com" />
 				</div>
 			</div>
             
