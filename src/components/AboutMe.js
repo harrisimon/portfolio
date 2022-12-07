@@ -29,7 +29,7 @@ const AboutMe = (props) => {
 							<br /> I`m an innovative, thoughtful developer who
 							ensures there is a human touch in all the code I
 							write. My background as an educator, technologist,
-							and artist inform how I solve problems with a
+							and artist informs how I solve problems with a
 							creative and effective approach. Working on products
 							that empower people to do more is my passion.
 						</p>
