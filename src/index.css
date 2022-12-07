@@ -85,6 +85,16 @@ html, body, #app {
 		flex-direction: column;
 	}
 }
+@media only screen and (max-width: 1000px) {
+	.skills{
+		display: flex;
+		flex-direction: row;
+	}
+	ul {
+		display: flex;
+		flex-direction: column;
+	}
+}
 
 #root {
 	margin: 0;
