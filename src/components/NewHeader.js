@@ -30,6 +30,7 @@ const NewHeader = () => {
 							Skills
 						</Link>
 						<a href={`${process.env.PUBLIC_URL}/harrisonResume.pdf`}
+						target="_blank"
 						className='nav-link'>
 							Resume
 						</a>
