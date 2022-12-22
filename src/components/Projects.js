@@ -16,6 +16,22 @@ const Projects = () => {
 
 			<div className="projects">
 				<div className="row">
+				<div className="project" id="bampow">
+						<h2 className="project-title">Bam Pow</h2>
+						<img
+						src={bampow}
+						id="image"
+						/>
+						<small className="app-description">
+							A full-stack application designed for small comic shops to allow users to favorite comics, authors, illustrators and more to surface recommendations.
+							Technologies include: PostgreSQL, Django, React
+						</small>
+						<button className="mybtns">
+							<a href="https://bampow.netlify.app/">
+								Link to <br/>Deployed Version
+							</a>
+						</button>
+					</div>
 					<div className="project" id="movie-logger">
 						<h2 className="project-title">Movie Logger</h2>
 						<img
@@ -36,6 +52,25 @@ const Projects = () => {
 						</button>
 					</div>
 
+					
+				</div>
+
+				<div className="row">
+					<div className="project" id="quizard">
+						<h2 className="project-title">Quizard</h2>
+						<img
+						src={quizard}
+						id="image"
+						/>
+						<small className="app-description">
+							A full-stack application where users can login to play trivia quizzes either from user submissions or by an API. Technologies include: React, Mongoose/MongoDB
+						</small>
+						<button className="mybtns">
+							<a href="https://quizard-by-tuneheads.netlify.app/">
+								Link to <br/>Deployed Version
+							</a>
+						</button>
+					</div>
 					<div className="project" id="sewer-rat">
 						<h2 className="project-title">Sewer Rat</h2>
 						<img
@@ -52,34 +87,6 @@ const Projects = () => {
 								Link to <br/>Deployed Version
 							</a>
 						</button>
-					</div>
-				</div>
-
-				<div className="row">
-					<div className="project" id="quizard">
-						<h2 className="project-title">Quizard</h2>
-						<img
-						src={quizard}
-						id="image"
-						/>
-						<small className="app-description">
-							A full-stack application where users can login to play trivia quizzes either from user submissions or by an API.
-						</small>
-						<button className="mybtns">
-							<a href="https://quizard-by-tuneheads.netlify.app/">
-								Link to <br/>Deployed Version
-							</a>
-						</button>
-					</div>
-					<div className="project" id="bampow">
-						<h2 className="project-title">Bam Pow</h2>
-						<img
-						src={bampow}
-						id="image"
-						/>
-						<small className="app-description">
-							More coming soon...
-						</small>
 					</div>
 				</div>
 			</div>
