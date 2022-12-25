@@ -26,20 +26,26 @@ const Projects = () => {
 								recommendations. Technologies include:
 								PostgreSQL, Django, React
 							</small>
+							<small className="app-description">
+							<h2>Example Login</h2><br/>User: hero@super.com
+							<br/> pw: Comics
+							</small>
 							<div className="btn-container">
 								<button className="mybtns">
 									<a href="https://bampow.netlify.app/">
-										
 										Deployed Version
 									</a>
 								</button>
 								<button className="mybtns">
 									<a href="https://github.com/harrisimon/react-comics">
-									<span>Code		</span><span><Icon size="small" name="code" /></span>
-									
+										<span>Code </span>
+										<span>
+											<Icon size="small" name="code" />
+										</span>
 									</a>
 								</button>
 							</div>
+							
 						</div>
 						<div className="project" id="movie-logger">
 							<h2 className="project-title">Movie Logger</h2>
@@ -54,16 +60,22 @@ const Projects = () => {
 								fully CRUD-able. Technologies include: Mongoose
 								/ MongoDB, Liquid View templates
 							</small>
+							<small className="app-description">
+							<h2>Example Login</h2><br/>User: cine@movie.com
+							<br/> pw: movie
+							</small>
 							<div className="btn-container">
 								<button className="mybtns">
 									<a href="https://movielogger.fly.dev/">
-										
 										Deployed Version
 									</a>
 								</button>
 								<button className="mybtns">
 									<a href="https://github.com/harrisimon/movie-logger">
-									<span>Code		</span><span><Icon size="small" name="code" /></span>
+										<span>Code </span>
+										<span>
+											<Icon size="small" name="code" />
+										</span>
 									</a>
 								</button>
 							</div>
@@ -82,7 +94,6 @@ const Projects = () => {
 							</small>
 							<button className="mybtns">
 								<a href="https://quizard-by-tuneheads.netlify.app/">
-									
 									Deployed Version
 								</a>
 							</button>
@@ -100,7 +111,6 @@ const Projects = () => {
 							</small>
 							<button className="mybtns">
 								<a href="https://harrisimon.github.io/Sewer-Rat/">
-									
 									Deployed Version
 								</a>
 							</button>

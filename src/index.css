@@ -392,6 +392,12 @@ h2 {
 h3 {
 	font-family: "Space Mono", monospace;
 }
+h4 {
+	font-family: "Space Mono", monospace;
+}
+h5 {
+	font-family: "Space Mono", monospace;
+}
 .portrait {
 	height: 300px;
 }
