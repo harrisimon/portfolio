@@ -29,13 +29,13 @@ const Projects = () => {
 							<div className="btn-container">
 								<button className="mybtns">
 									<a href="https://bampow.netlify.app/">
-										Link to <br />
+										
 										Deployed Version
 									</a>
 								</button>
 								<button className="mybtns">
 									<a href="https://github.com/harrisimon/react-comics">
-										Link to Code
+										Code
 									</a>
 								</button>
 							</div>
@@ -56,13 +56,13 @@ const Projects = () => {
 							<div className="btn-container">
 								<button className="mybtns">
 									<a href="https://movielogger.fly.dev/">
-										Link to <br />
+										
 										Deployed Version
 									</a>
 								</button>
 								<button className="mybtns">
 									<a href="https://github.com/harrisimon/movie-logger">
-										Link to Code
+										Code
 									</a>
 								</button>
 							</div>
@@ -81,7 +81,7 @@ const Projects = () => {
 							</small>
 							<button className="mybtns">
 								<a href="https://quizard-by-tuneheads.netlify.app/">
-									Link to <br />
+									
 									Deployed Version
 								</a>
 							</button>
@@ -99,7 +99,7 @@ const Projects = () => {
 							</small>
 							<button className="mybtns">
 								<a href="https://harrisimon.github.io/Sewer-Rat/">
-									Link to <br />
+									
 									Deployed Version
 								</a>
 							</button>
