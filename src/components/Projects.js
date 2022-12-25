@@ -4,7 +4,7 @@ import movieLogger from "../imgs/movielogger.jpg"
 import quizard from "../imgs/quizard.jpg"
 import bampow from "../imgs/bampow.jpg"
 import { HashLink as Link } from "react-router-hash-link"
-import { Card, Container } from "semantic-ui-react"
+import { Card, Container, Icon } from "semantic-ui-react"
 
 const Projects = () => {
 	return (
@@ -35,7 +35,8 @@ const Projects = () => {
 								</button>
 								<button className="mybtns">
 									<a href="https://github.com/harrisimon/react-comics">
-										Code
+									<span>Code		</span><span><Icon size="small" name="code" /></span>
+									
 									</a>
 								</button>
 							</div>
@@ -62,7 +63,7 @@ const Projects = () => {
 								</button>
 								<button className="mybtns">
 									<a href="https://github.com/harrisimon/movie-logger">
-										Code
+									<span>Code		</span><span><Icon size="small" name="code" /></span>
 									</a>
 								</button>
 							</div>
