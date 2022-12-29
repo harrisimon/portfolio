@@ -28,8 +28,10 @@ const Projects = () => {
 								PostgreSQL, Django, React
 							</small>
 							<small className="app-description">
-							<h2>Example Login</h2><br/>User: hero@super.com
-							<br/> pw: Comics
+								<h2>Example Login</h2>
+								<br />
+								User: hero@super.com
+								<br /> pw: Comics
 							</small>
 							<div className="btn-container">
 								<button className="mybtns">
@@ -46,8 +48,41 @@ const Projects = () => {
 									</a>
 								</button>
 							</div>
-							
 						</div>
+						<div className="project" id="tinyweather">
+							<h2 className="project-title">Tiny Weather</h2>
+							<img
+								src={tinyweather}
+								id="image"
+								alt="tiny weather screen cap"
+							/>
+							<small className="app-description">
+								A full-stack Mongoose-Express-React-Node app for
+								displaying weather readings. Version 1
+								(currently deployed) displays data from a
+								RaspberryPi with a weather sensor. Version 2,
+								coming soon will allow users to leave short
+								diaries that correspond to the weather.
+							</small>
+							<div className="btn-container">
+								<button className="mybtns">
+									<a href="https://tiny-weather.com">
+										Deployed Version
+									</a>
+								</button>
+								<button className="mybtns">
+									<a href="https://github.com/harrisimon/tiny-weather-api">
+										<span>Code </span>
+										<span>
+											<Icon size="small" name="code" />
+										</span>
+									</a>
+								</button>
+							</div>
+						</div>
+					</div>
+
+					<div className="row">
 						<div className="project" id="movie-logger">
 							<h2 className="project-title">Movie Logger</h2>
 							<img
@@ -62,8 +97,10 @@ const Projects = () => {
 								/ MongoDB, Liquid View templates
 							</small>
 							<small className="app-description">
-							<h2>Example Login</h2><br/>User: cine@movie.com
-							<br/> pw: movie
+								<h2>Example Login</h2>
+								<br />
+								User: cine@movie.com
+								<br /> pw: movie
 							</small>
 							<div className="btn-container">
 								<button className="mybtns">
@@ -73,32 +110,6 @@ const Projects = () => {
 								</button>
 								<button className="mybtns">
 									<a href="https://github.com/harrisimon/movie-logger">
-										<span>Code </span>
-										<span>
-											<Icon size="small" name="code" />
-										</span>
-									</a>
-								</button>
-							</div>
-						</div>
-					</div>
-
-					<div className="row">
-						<div className="project" id="tinyweather">
-							<h2 className="project-title">Tiny Weather</h2>
-							<img src={tinyweather} id="image" alt="tiny weather screen cap" />
-							<small className="app-description">
-								A full-stack Mongoose-Express-React-Node app for displaying weather readings. Version 1 (currently deployed) displays data from a RaspberryPi with a weather sensor. Version 2, coming soon will allow users to leave short diaries that correspond to the weather.
-							</small>
-							<div className="btn-container">
-
-							<button className="mybtns">
-								<a href="https://tiny-weather.com">
-									Deployed Version
-								</a>
-							</button>
-							<button className="mybtns">
-									<a href="https://github.com/harrisimon/tiny-weather-api">
 										<span>Code </span>
 										<span>
 											<Icon size="small" name="code" />
