@@ -3,6 +3,7 @@ import sewerRat from "../imgs/sewerRat.jpg"
 import movieLogger from "../imgs/movielogger.jpg"
 import quizard from "../imgs/quizard.jpg"
 import bampow from "../imgs/bampow.jpg"
+import tinyweather from "../imgs/tinyweather.jpg"
 import { HashLink as Link } from "react-router-hash-link"
 import { Card, Container, Icon } from "semantic-ui-react"
 
@@ -83,20 +84,28 @@ const Projects = () => {
 					</div>
 
 					<div className="row">
-						<div className="project" id="quizard">
-							<h2 className="project-title">Quizard</h2>
-							<img src={quizard} id="image" />
+						<div className="project" id="tinyweather">
+							<h2 className="project-title">Tiny Weather</h2>
+							<img src={tinyweather} id="image" alt="tiny weather screen cap" />
 							<small className="app-description">
-								A full-stack application where users can login
-								to play trivia quizzes either from user
-								submissions or by an API. Technologies include:
-								React, Mongoose/MongoDB
+								A full-stack Mongoose-Express-React-Node app for displaying weather readings. Version 1 (currently deployed) displays data from a RaspberryPi with a weather sensor. Version 2, coming soon will allow users to leave short diaries that correspond to the weather.
 							</small>
+							<div className="btn-container">
+
 							<button className="mybtns">
-								<a href="https://quizard-by-tuneheads.netlify.app/">
+								<a href="https://tiny-weather.com">
 									Deployed Version
 								</a>
 							</button>
+							<button className="mybtns">
+									<a href="https://github.com/harrisimon/tiny-weather-api">
+										<span>Code </span>
+										<span>
+											<Icon size="small" name="code" />
+										</span>
+									</a>
+								</button>
+							</div>
 						</div>
 						<div className="project" id="sewer-rat">
 							<h2 className="project-title">Sewer Rat</h2>
