@@ -60,6 +60,12 @@ const Projects = () => {
 								A full-stack Mongoose-Express-React-Node app for
 								displaying weather readings taken from a homemade Raspberry Pi weather station. Users can sign up to make posts for each weather reading as a diary / semi-disposable journal. Users can also view all their individual post history.
 							</small>
+							<small className="app-description">
+								<h2>Example Login</h2>
+								<br />
+								User: raincloud
+								<br /> pw: rain
+							</small>
 							<div className="btn-container">
 								<button className="mybtns">
 									<a href="https://tiny-weather.com">
