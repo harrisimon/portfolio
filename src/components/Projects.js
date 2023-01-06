@@ -58,11 +58,7 @@ const Projects = () => {
 							/>
 							<small className="app-description">
 								A full-stack Mongoose-Express-React-Node app for
-								displaying weather readings. Version 1
-								(currently deployed) displays data from a
-								RaspberryPi with a weather sensor. Version 2,
-								coming soon will allow users to leave short
-								diaries that correspond to the weather.
+								displaying weather readings taken from a homemade Raspberry Pi weather station. Users can sign up to make posts for each weather reading as a diary / semi-disposable journal. Users can also view all their individual post history.
 							</small>
 							<div className="btn-container">
 								<button className="mybtns">
