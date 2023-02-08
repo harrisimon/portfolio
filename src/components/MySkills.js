@@ -90,6 +90,14 @@ const MyTools = () => {
 								<br />
 								PostgreSQL
 							</li>
+							<li>
+								<Icon
+									className="devicon-typescript-plain"
+									size="huge"
+								></Icon>
+								<br />
+								Typescript
+							</li>
 						</ul>
 					</div>
 				</div>
