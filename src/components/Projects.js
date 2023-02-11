@@ -52,6 +52,7 @@ const Projects = () => {
 							image={sewerRat}
 							description={descriptions.sewerRat}
 							deployedLink={"https://harrisimon.github.io/Sewer-Rat/"}
+							code={'https://github.com/harrisimon/Sewer-Rat'}
 						/>
 						
 					</div>
