@@ -1,6 +1,5 @@
 import React from "react"
-import { Icon, IconGroup, Container } from "semantic-ui-react"
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { Icon, Container } from "semantic-ui-react"
 
 const MyTools = () => {
 	return (
