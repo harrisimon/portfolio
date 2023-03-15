@@ -46,7 +46,7 @@ const MyTools = () => {
 							<li>
 								<Icon size="huge" className="devicon-numpy-original"></Icon>
 								<br />
-								Numpy
+								NumPy
 							</li>
 							<li>
 								<Icon size="huge" className="devicon-pandas-original"></Icon>
