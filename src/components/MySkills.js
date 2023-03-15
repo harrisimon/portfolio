@@ -43,6 +43,16 @@ const MyTools = () => {
 								<br />
 								Python
 							</li>
+							<li>
+								<Icon size="huge" className="devicon-numpy-original"></Icon>
+								<br />
+								Numpy
+							</li>
+							<li>
+								<Icon size="huge" className="devicon-pandas-original"></Icon>
+								<br />
+								Pandas
+							</li>
 						</ul>
 					</div>
 					<br />
