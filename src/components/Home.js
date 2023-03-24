@@ -1,13 +1,12 @@
-import React, { useState, useEffect } from "react"
+import React from "react"
 import harrisonProfile from "../imgs/harrisonProfile.jpg"
 import { useNavigate } from "react-router-dom"
-import { HashLink as Link } from "react-router-hash-link"
 import Projects from "./Projects"
-import MySkills from "./MySkills"
 import Footer from "./Footer"
 import milkyWay from "../imgs/milkywayatcapecod.jpg"
 import AboutMe from "./AboutMe"
 import NewHeader from "./NewHeader"
+import StarFloat from "./StarFloat"
 // import { Button } from 'semantic-ui-css'
 
 const Home = (props) => {
@@ -17,20 +16,20 @@ const Home = (props) => {
 		let path = `/about-me`
 		navigate(path)
 	}
-
+	const name = 'Harrison Simon'
 	return (
 		<div className="background" id="root">
+	
 			<div className="home">
 				<NewHeader />
 				<div className="milkyway"></div>
-				{/* <div className="about-background">
-			</div> */}
+				
 				<AboutMe
 					harrisonProfile={harrisonProfile}
 					handleClick={handleClick}
 				/>
 				<Projects id="projects" />
-				{/* <MySkills /> */}
+		
 				<Footer />
 				<div className="homepage-footer">
 					<div>

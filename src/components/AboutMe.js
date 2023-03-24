@@ -22,9 +22,9 @@ const AboutMe = (props) => {
 						<p id="font" className="about-harrison">
 							<span className="intro">
 								Hi, I'm Harrison!{" "}
-								<span className="milky" onClick={handleClick}>
+								{/* <span className="milky" onClick={handleClick}>
 									🌌
-								</span>
+								</span> */}
 							</span>
 							<br /> I`m an innovative, thoughtful developer who
 							ensures there is a human touch in all the code I

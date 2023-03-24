@@ -104,8 +104,8 @@ html, body, #app {
 	margin: 0;
 }
 .milky {
-	font-size: 3rem;
-	animation: pulse 3s infinite;
+	font-size: 6rem;
+	/* animation: pulse 6s infinite; */
 	border-radius: 50%;
 	height: 30px;
 	width: 50px;
@@ -470,6 +470,21 @@ li {
 	justify-content: space-between;
 
 }
+.floatSwitch{
+	position: fixed;
+	font-size: 1rem;
+	right: -30px;
+	bottom: 40px;
+	filter: drop-shadow(20px 10px 30px #FFF);
+}
+.floatSwitch:hover{
+	position: fixed;
+	font-size: 1rem;
+	right: 20px;
+	bottom: 40px;
+	filter: drop-shadow(20px 10px 30px #000);
+
+}
 @media only screen and (max-width: 500px) {
 	.projects {
 		display: flex;
@@ -491,5 +506,15 @@ li {
 		
 
 		/* flex-direction: column; */
+	}
+	.milky{
+		font-size: 4rem;
+	}
+	.floatSwitch{
+		position: fixed;
+		font-size: 1rem;
+		right: 40px;
+		bottom: 40px;
+		filter: drop-shadow(20px 10px 30px #FFF);
 	}
 }

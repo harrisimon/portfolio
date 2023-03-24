@@ -9,6 +9,7 @@ import harrisonProfile from "./imgs/harrisonProfile.jpg"
 import MySkills from "./components/MySkills"
 import "./App.css"
 import Footer from "./components/Footer"
+import StarFloat from "./components/StarFloat"
 import Resume from './components/Resume'
 
 function App() {
@@ -17,25 +18,14 @@ function App() {
 	const handleClick = () => {
 		setActive((current) => !current)
 	}
-	// const [width, setWidth] = useState(Number(window.innerWidth))
 
-	// function handleWindowSizeChange() {
-	// 	setWidth(window.innerWidth)
-	// }
-	// useEffect(() => {
-	// 	window.addEventListener("resize", handleWindowSizeChange)
-	// 	return () => {
-	// 		window.removeEventListener("resize", handleWindowSizeChange)
-	// 	}
-	// }, [])
-
-	// const isMobile = width <= 768
 
 	return (
 		<>
 			<Fragment>
 				<BrowserRouter>
 					<NewHeader />
+					<StarFloat handleClick={handleClick} active={active}/>
 					<div
 						className="home"
 						style={{
