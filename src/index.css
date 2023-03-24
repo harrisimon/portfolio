@@ -511,6 +511,7 @@ li {
 		font-size: 4rem;
 	}
 	.floatSwitch{
+		z-index: 1;
 		position: fixed;
 		font-size: 1rem;
 		right: 20px;
