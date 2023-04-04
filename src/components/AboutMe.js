@@ -1,8 +1,7 @@
 import React from "react"
-import harrisonPortrait from "../imgs/harrisonPortrait.jpeg"
 
 const AboutMe = (props) => {
-	const { harrisonProfile, handleClick } = props
+	const { harrisonProfile } = props
 	return (
 		<>
 			<div className="content">
