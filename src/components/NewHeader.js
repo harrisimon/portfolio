@@ -20,13 +20,13 @@ const NewHeader = () => {
 					<Link smooth to="/pathLink#skills" className="nav-link">
 						Skills
 					</Link>
-					<a
+					{/* <a
 						href={`${process.env.PUBLIC_URL}/harrisonResume.pdf`}
 						target="_blank"
 						className="nav-link"
 					>
 						Resume
-					</a>
+					</a> */}
 				</div>
 				<div className="bottom-items">
 					<a
